@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    margin: 20px;
+}
+
+#grid-container {
+    display: grid;
+    justify-content: center;
+    gap: 2px;
+}
+
+.grid-item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.grid-item.start {
+    background-color: green;
+}
+
+.grid-item.end {
+    background-color: red;
+}
+
+.grid-item.wall {
+    background-color: black;
+}
+
+.grid-item.visited {
+    background-color: blue;
+}
+
+.grid-item.path {
+    background-color: yellow;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button, select {
+    margin: 5px;
+}
